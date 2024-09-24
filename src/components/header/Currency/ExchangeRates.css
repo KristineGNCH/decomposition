@@ -1,0 +1,34 @@
+.rates__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.rate__items {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 0;
+}
+
+.rate__item {
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.rates__item-rate {
+margin-left: 10px;
+
+}
+
+.extrs-rates__item-rate {
+    display: contents;
+}
+
+.extra-rates__link {
+    width: 20px;
+    height:20px;
+        background-image: url(../../../assets/dots-3-horizontal-svgrepo-com.svg);
+    background-size: cover;
+}

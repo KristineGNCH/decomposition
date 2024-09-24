@@ -1,0 +1,32 @@
+.ads {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 50px;
+  }
+  
+  .ads__image-container {
+    width: 100px;
+  }
+  
+  .ad_image {
+    border-radius: 100px;
+  }
+  
+  .ad__title {
+    margin-top: 10px;
+    margin-bottom: 0;
+  
+    font-size: 18px;
+  }
+  
+  .ad-title__link {
+    color: #0054b9;
+  }
+  
+  .ad__description {
+    margin-top: 10px;
+    margin-bottom: 0;
+  
+    font-size: 14.5px;
+  }

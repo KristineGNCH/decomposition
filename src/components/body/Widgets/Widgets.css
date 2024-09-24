@@ -1,0 +1,14 @@
+.widget__title {
+  font-weight: 700;
+  color: #666eff;
+}
+
+.widget__title:active {
+  color: #70deff;
+}
+
+.weather__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
