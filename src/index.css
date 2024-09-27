@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, sans-serif;
   font-weight: 400;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -13,6 +13,8 @@
 ul, li {
   text-decoration: none;
   list-style: none;
+  cursor: pointer;
+  padding: 0;
 }
 
 a {
@@ -38,8 +40,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.app-wrapper__header,
-.app-wrapper__body {
+.app-wrapper__header {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -48,14 +49,26 @@ button:focus-visible {
 }
 
 .app-wrapper__body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin-top: 30px;
   margin-bottom: 30px;
-  gap: 5px;
+  gap: 20px;
 }
 
 .app-body,
 .app-header {
-  margin-left: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.widgets__container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(16rem, 1fr));
+  margin-top: 38px;
+  margin-bottom: 40px;
 }
 
 

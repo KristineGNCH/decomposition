@@ -7,11 +7,11 @@ export default function Ad(props) {
   return (
     <div className="ads">
       {children}
-      <h3 className="ad__title">
+      <h1 className="ad__title">
         <a href="#" className="ad-title__link">
           {title}
         </a>
-      </h3>
+      </h1>
       <p className="ad__description">{description}</p>
     </div>
   );

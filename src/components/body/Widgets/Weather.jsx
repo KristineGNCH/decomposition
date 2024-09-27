@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+
 import "./Widgets.css";
 
 export default function WeatherWidget(props) {
@@ -6,20 +6,20 @@ export default function WeatherWidget(props) {
 
   return (
     <div className="widget weather">
-      <h1 className="widget__title">Погода</h1>
+      <a href="#" className="widget__title">Погода</a>
       <div className="weather__wrapper">
         <img
           src="https://yastatic.net/weather/i/icons/confident/dark/svg/ovc_ra.svg"
           alt="error"
         />
-        <span className="temp__value temp__value_avarage">
+        <span className="temp__value-avarage widget__content">
           {tempValue}&deg;
         </span>
         <div className="weather__detailed">
-          <span className="temp__value temp__value_morning">
+          <span className="temp__value-morning widget__content">
             Утром {tempValueMorning},
           </span>
-          <span className="temp__value temp__value_afternoon">
+          <span className="temp__value-afternoon widget__content">
             днём {tempValueAfternoon}
           </span>
         </div>

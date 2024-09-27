@@ -1,14 +1,65 @@
+.widget {
+  display: flex;
+  flex-direction: column;
+
+}
+
 .widget__title {
+  font-size: 1.2rem;
   font-weight: 700;
-  color: #666eff;
+  color: #496BB6;
+  margin-bottom: 20px;
 }
 
 .widget__title:active {
-  color: #70deff;
+  color: #2D88D5;
+}
+
+.widget__content {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #5D5A4A;
 }
 
 .weather__wrapper {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  align-items: center;
+}
+
+.weather__detailed {
+  display: flex;
+  flex-direction: column;
+}
+
+.widget__content {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.widget__item {
+  margin-right: 7px;
+}
+
+.widget__additional-content {
+  margin-right: 8px;
+}
+
+.tv-scheduel__time {
+  font-weight: 700;
+}
+
+.broadcast__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.play-button {
+  display: block;
+  background-image: url(../../../assets/play-button-svgrepo-com.svg);
+  background-size: cover;
+  width: 15px;
+  height: 15px;
 }
